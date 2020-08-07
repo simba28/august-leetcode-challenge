@@ -36,7 +36,7 @@ class Solution:
             
             tmp = []
             
-            for j,k in sorted(self.d[i]):
+            for _,k in sorted(self.d[i]):
                 tmp.append(k)
             if tmp :
                 res.append(tmp)
